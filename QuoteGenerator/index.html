@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/output.css">
+    <title>Random Quote Generator</title>
+</head>
+<body onload="randomQuote()">
+    <div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
+        <img src="./src/images/beams.jpg" alt="" class="absolute top-1/2 left-1/2 max-w-none -translate-x-1/2 -translate-y-1/2" width="1308" />
+        <div class="relative bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
+            <div class="w-full mb-10">
+                <div class="text-3xl text-indigo-500 text-left leading-tight h-3">“</div>
+                <p id="quote" class="text-sm text-gray-600 text-center px-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam obcaecati laudantium recusandae, debitis eum voluptatem ad, illo voluptatibus temporibus odio provident.</p>
+                <div class="text-3xl text-indigo-500 text-right leading-tight h-3 -mt-3">”</div>
+            </div>
+            <div class="w-full">
+                <p id="author" class="text-md text-indigo-500 font-bold text-center">User</p>
+            </div>
+            <div class="w-full text-center mt-4">
+                <button class="rounded bg-blue-500 py-2 px-4 font-bold text-white hover:bg-blue-700">New Quote</button>
+            </div>
+        </div>
+    </div>
+    <script src="./src/script.js"></script>
+</body>
+</html>
