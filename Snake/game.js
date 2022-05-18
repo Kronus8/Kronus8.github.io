@@ -179,6 +179,12 @@ document.body.addEventListener('keydown', function(e) {
         yVelocity = 0;
         xVelocity = 1;
     }
+
+    // Spacebar
+    // Reload the game / page when somebody hits spacebar.
+    if (e.key == " " || e.code == "Space") {
+        window.location.reload();
+    }
 });
 
 draw();
