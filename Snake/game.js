@@ -1,6 +1,6 @@
 const canvas = document.getElementById('game');
 const ctx = canvas.getContext('2d');
-//document.getElementById('restartGameBtn').style.display = "none";
+document.getElementById('restartGameBtn').style.display = "none";
 
 class SnakePart {
     constructor(x, y) {
@@ -90,7 +90,7 @@ function isGameOver() {
         ctx.fillStyle = gradient;
 
         ctx.fillText("Game Over!", canvas.width / 6.5, canvas.height / 2);
-        //document.getElementById('restartGameBtn').style.display = "block";
+        document.getElementById('restartGameBtn').style.display = "block";
     }
 
     return gameOver;
