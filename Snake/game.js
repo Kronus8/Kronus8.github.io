@@ -149,7 +149,7 @@ function checkAppleCollision() {
 // Key event listener.
 document.body.addEventListener('keydown', function(e) {
     // Up
-    if (e.key === 'W') {
+    if (e.key === 'W' || e.key === 'w') {
         if (yVelocity == 1)
             return;
         yVelocity = -1;
@@ -157,7 +157,7 @@ document.body.addEventListener('keydown', function(e) {
     }
 
     // Down
-    if (e.key === 'S') {
+    if (e.key === 'S' || e.key === 's') {
         if (yVelocity == -1)
             return;
         yVelocity = 1;
@@ -165,7 +165,7 @@ document.body.addEventListener('keydown', function(e) {
     }
 
     // Left
-    if (e.key === 'A') {
+    if (e.key === 'A' || e.key === 'a') {
         if (xVelocity == 1)
             return;
         yVelocity = 0;
@@ -173,7 +173,7 @@ document.body.addEventListener('keydown', function(e) {
     }
 
     // Right
-    if (e.key === 'D') {
+    if (e.key === 'D' || e.key === 'd') {
         if (xVelocity == -1)
             return;
         yVelocity = 0;
