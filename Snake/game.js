@@ -147,7 +147,7 @@ function checkAppleCollision() {
 }
 
 // Key event listener.
-document.body.addEventListener('keydown', function(e) {
+window.addEventListener('keydown', function(e) {
     // Up
     if (e.key === 'W') {
         if (yVelocity == 1)
