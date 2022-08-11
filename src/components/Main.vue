@@ -4,7 +4,7 @@
       <div class="lg:px-4 lg:mt-12 ">
         <h1 class="text-2xl font-bold text-gray-900 lg:text-5xl dark:text-white hover:text-orange-400 transition-colors">Hi there 👋 I'm Kronus,</h1>
         <div class="mt-6 text-gray-800 dark:text-white">
-          <p class="mb-4">I am a Full Stack Web Developer.</p>
+          <p class="mb-4">I am a Full Stack Developer.</p>
           <p class="mb-4">I enjoy building projects, learning new technologies and just about everything Web Development related. If you are looking to see some of my projects please visit my <a class="hover:text-orange-400 transition-colors" href="https://github.com/Kronus8">Github.</a></p>
           <p class="mb-4">Currently learning: Vue.js and Tailwind.</p>
 
